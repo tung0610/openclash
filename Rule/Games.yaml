@@ -122,3 +122,19 @@ payload:
   - IP-CIDR,137.221.105.2/32
   - IP-CIDR,210.71.148.11/32
   - IP-CIDR,211.115.104.1/32
+  - DOMAIN-SUFFIX,battlebreakers.com
+  - DOMAIN-SUFFIX,eac-cdn.com
+  - DOMAIN-SUFFIX,easy.ac
+  - DOMAIN-SUFFIX,easyanticheat.net
+  - DOMAIN-SUFFIX,epicgames.com
+  - DOMAIN-SUFFIX,epicgames.dev
+  - DOMAIN-SUFFIX,fortnite.com
+  - DOMAIN-SUFFIX,helpshift.com
+  - DOMAIN-SUFFIX,paragon.com
+  - DOMAIN-SUFFIX,playparagon.com
+  - DOMAIN-SUFFIX,roborecall.com
+  - DOMAIN-SUFFIX,shadowcomplex.com
+  - DOMAIN-SUFFIX,spyjinx.com
+  - DOMAIN-SUFFIX,unrealengine.com
+  - DOMAIN-SUFFIX,unrealtournament.com
+  - DOMAIN-KEYWORD,epicgames
