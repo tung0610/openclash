@@ -1,0 +1,26 @@
+payload:
+  - IP-CIDR,218.100.14.0/24
+  - IP-CIDR,218.100.10.0/24
+  - IP-CIDR,1.1.1.1/32
+  - IP-CIDR,8.8.8.8/32
+  - IP-CIDR,9.9.9.9/32
+  - IP-CIDR,208.67.222.222/32
+  - IP-CIDR,162.159.36.20/32
+  - IP-CIDR,162.159.36.5/32
+  - IP-CIDR,172.64.36.1/32
+  - IP-CIDR,172.64.36.2/32
+  - DOMAIN-SUFFIX,vxm2z38hp9.cloudflare-gateway.com
+  - DOMAIN-SUFFIX,dns.quad9.net
+  - DOMAIN-SUFFIX,dns.cloudflare.com
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN-SUFFIX,doh.opendns.com
+  - DOMAIN-SUFFIX,family.adguard-dns.com
+  - DOMAIN-SUFFIX,5gtocdocao.com
+  - IP-CIDR,192.168.20.1/32
+  - IP-CIDR,192.168.40.1/32
+  - IP-CIDR,192.168.40.91/32
+  - IP-CIDR,192.168.20.253/32
+  - DOMAIN-KEYWORD,havinam
+  - DOMAIN-KEYWORD,motchill
+  - DOMAIN-KEYWORD,garena
+  - DOMAIN-KEYWORD,faceit
