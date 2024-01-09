@@ -7,12 +7,15 @@ payload:
   - IP-CIDR,208.67.222.222/32
   - IP-CIDR,174.138.21.128/32
   - IP-CIDR,188.166.206.224/32
+  - IP-CIDR,76.76.2.4/32
+  - IP-CIDR,76.76.10.4/32
   - IP-CIDR,174.138.29.175/32
   - IP-CIDR,162.159.36.20/32
   - IP-CIDR,162.159.36.5/32
   - IP-CIDR,172.64.36.1/32
   - IP-CIDR,172.64.36.2/32
   - DOMAIN-SUFFIX,vxm2z38hp9.cloudflare-gateway.com
+  - DOMAIN-SUFFIX,freedns.controld.com
   - DOMAIN-SUFFIX,tiarap.org
   - DOMAIN-SUFFIX,tiar.app
   - DOMAIN-SUFFIX,dns.quad9.net
