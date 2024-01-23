@@ -35,3 +35,4 @@ payload:
   - DOMAIN-KEYWORD,hanet
   - DOMAIN-KEYWORD,syncthing
   - DOMAIN-SUFFIX,s3south.storage.com.vn
+  - DOMAIN-SUFFIX,delivery-uconnect.urekamedia.com
