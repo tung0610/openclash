@@ -34,3 +34,4 @@ payload:
   - DOMAIN-KEYWORD,faceit
   - DOMAIN-KEYWORD,hanet
   - DOMAIN-KEYWORD,syncthing
+  - DOMAIN-SUFFIX,s3south.storage.com.vn
