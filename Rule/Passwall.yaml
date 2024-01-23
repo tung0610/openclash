@@ -3,5 +3,9 @@ payload:
   - SRC-IP-CIDR,192.168.88.91/32
   - DOMAIN-KEYWORD,hanet
   - DOMAIN-KEYWORD,syncthing
+  - DOMAIN-KEYWORD,googleapis
   - DOMAIN-SUFFIX,s3south.storage.com.vn
-  - DOMAIN-SUFFIX,delivery-uconnect.urekamedia.com
+  - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
+  - DOMAIN-SUFFIX,mtalk.google.com
+  - DST-PORT,22000
+  - DST-PORT,8080
