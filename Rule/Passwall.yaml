@@ -9,3 +9,4 @@ payload:
   - DOMAIN-SUFFIX,mtalk.google.com
   - DST-PORT,22000
   - DST-PORT,8080
+  - DST-PORT,5228
