@@ -7,6 +7,7 @@ payload:
   - DOMAIN-SUFFIX,s3south.storage.com.vn
   - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,app-measurement.com
   - DST-PORT,22000
   - DST-PORT,8080
   - DST-PORT,5228
