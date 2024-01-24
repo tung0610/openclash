@@ -7,6 +7,7 @@ payload:
   - DOMAIN-KEYWORD,urekamedia
   - DOMAIN-KEYWORD,mtalk
   - DOMAIN-KEYWORD,dropbox
+  - DOMAIN-KEYWORD,gstatic
   - DOMAIN-SUFFIX,s3south.storage.com.vn
   - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,app-measurement.com
