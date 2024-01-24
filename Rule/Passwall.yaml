@@ -8,6 +8,7 @@ payload:
   - DOMAIN-SUFFIX,connectivitycheck.gstatic.com
   - DOMAIN-SUFFIX,mtalk.google.com
   - DOMAIN-SUFFIX,app-measurement.com
+  - DOMAIN-SUFFIX,delivery-uconnect.urekamedia.com
   - DST-PORT,22000
   - DST-PORT,8080
   - DST-PORT,5228
