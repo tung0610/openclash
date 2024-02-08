@@ -34,6 +34,8 @@ payload:
   - DOMAIN-KEYWORD,faceit
   - DOMAIN-KEYWORD,hik-proconnect
   - DOMAIN-KEYWORD,hik-connect
+  - DOMAIN-KEYWORD,aliyuncs
+  - DOMAIN-KEYWORD,ezvizlife
   - DST-PORT,6002
   - DST-PORT,7100
   - DOMAIN,5gtocdocao.com
