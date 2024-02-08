@@ -34,6 +34,7 @@ payload:
   - DOMAIN-KEYWORD,faceit
   - DOMAIN-KEYWORD,hik-proconnect
   - DOMAIN-KEYWORD,hik-connect
+  - DST-PORT,6002
   - DOMAIN,5gtocdocao.com
   - DOMAIN-SUFFIX,local
   - IP-CIDR,127.0.0.0/8
