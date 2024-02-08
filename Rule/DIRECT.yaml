@@ -34,7 +34,7 @@ payload:
   - DOMAIN-KEYWORD,faceit
   - DOMAIN-KEYWORD,hik-proconnect
   - DOMAIN-KEYWORD,hik-connect
-  - DOMAIN-KEYWORD,aliyuncs
+  - DOMAIN-SUFFIX,alialarm-sgp.oss-ap-southeast-1.aliyuncs.com
   - DOMAIN-KEYWORD,ezvizlife
   - DST-PORT,6002
   - DST-PORT,7100
