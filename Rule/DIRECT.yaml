@@ -35,6 +35,7 @@ payload:
   - DOMAIN-KEYWORD,hik-proconnect
   - DOMAIN-KEYWORD,hik-connect
   - DST-PORT,6002
+  - DST-PORT,7100
   - DOMAIN,5gtocdocao.com
   - DOMAIN-SUFFIX,local
   - IP-CIDR,127.0.0.0/8
