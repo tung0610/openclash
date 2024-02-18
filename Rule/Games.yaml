@@ -138,3 +138,4 @@ payload:
   - DOMAIN-SUFFIX,unrealengine.com
   - DOMAIN-SUFFIX,unrealtournament.com
   - DOMAIN-KEYWORD,epicgames
+  - DOMAIN-KEYWORD,riotcdn
