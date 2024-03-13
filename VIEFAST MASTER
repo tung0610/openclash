@@ -1,0 +1,58 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+unified-delay: true
+log-level: info
+external-controller: '127.0.0.1:9090'
+dns:
+    enable: true
+    listen: '127.0.0.1:35353'
+    default-nameserver: [223.5.5.5, 1.1.1.1, 1.0.0.1]
+    enhanced-mode: fake-ip
+    fake-ip-range: 198.18.0.1/16
+    use-hosts: true
+    nameserver: [8.8.8.8, 1.1.1.1, 8.8.4.4, 1.0.0.1]
+    fallback: [119.29.29.29, 223.5.5.5, 'https://dns.rubyfish.cn/dns-query', 'tls://8.8.4.4', 'tls://1.0.0.1:853', 'https://cloudflare-dns.com/dns-query', 'https://dns.google/dns-query']
+    fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
+proxies:
+    - { name: '🇻🇳 VieFast Master VN (01)', type: vmess, server: 171.244.61.169, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com, network: ws, ws-opts: { path: /viefast15, headers: { Host: viefast.appsflyer.com } }, ws-path: /viefast15, ws-headers: { Host: v9.tiktokcdn.com } }
+    - { name: '🇻🇳 VieFast Master VN (02)', type: vmess, server: 171.244.61.169, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com, network: ws, ws-opts: { path: /viefast1, headers: { Host: viefast.appsflyer.com } }, ws-path: /viefast1, ws-headers: { Host: v9.tiktokcdn.com } }
+    - { name: '🇻🇳 VieFast Master VN (03)', type: vmess, server: 171.244.61.169, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com, network: ws, ws-opts: { path: /viefast18, headers: { Host: viefast.appsflyer.com } }, ws-path: /viefast18, ws-headers: { Host: v9.tiktokcdn.com } }
+    - { name: '🇻🇳 VieFast Master VN (04)', type: vmess, server: 171.244.61.169, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com, network: ws, ws-opts: { path: /viefast16, headers: { Host: viefast.appsflyer.com } }, ws-path: /viefast16, ws-headers: { Host: v9.tiktokcdn.com } }
+    - { name: '🇻🇳 VieFast Master VN (05)', type: vmess, server: 171.244.61.169, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com, network: ws, ws-opts: { path: /viefast17, headers: { Host: viefast.appsflyer.com } }, ws-path: /viefast17, ws-headers: { Host: v9.tiktokcdn.com } }
+    - { name: '🇻🇳 VieFast Master VN (06)', type: vmess, server: 171.244.61.169, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com, network: ws, ws-opts: { path: /viefast19, headers: { Host: viefast.appsflyer.com } }, ws-path: /viefast19, ws-headers: { Host: v9.tiktokcdn.com } }
+    - { name: '🇸🇬 VieFast Master SG (01)', type: vmess, server: 45.77.42.160, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇸🇬 VieFast Master SG (02)', type: vmess, server: 66.42.55.85, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇸🇬 VieFast Master SG (04)', type: vmess, server: 149.28.136.237, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇸🇬 VieFast Master SG (05)', type: vmess, server: 66.42.54.252, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇸🇬 VieFast Master SG (06)', type: vmess, server: 45.32.120.163, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇯🇵 VieFast Master JP (01)', type: vmess, server: 202.182.109.96, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇯🇵 VieFast Master JP (02)', type: vmess, server: 45.32.44.202, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇯🇵 VieFast Master JP (03)', type: vmess, server: 45.76.99.204, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇮🇳 VieFast Master IN (01)', type: vmess, server: 65.20.86.80, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇬🇧 VieFast Master UK (01)', type: vmess, server: 66.245.192.203, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇩🇪 VieFast Master DE (01)', type: vmess, server: 104.238.176.64, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇫🇷 VieFast Master FR (01)', type: vmess, server: 45.32.144.59, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇦🇺 VieFast Master AU (01)', type: vmess, server: 207.148.86.249, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+    - { name: '🇨🇦 VieFast Master CA (01)', type: vmess, server: 216.128.184.239, port: 443, uuid: f99f4def-1ab9-4ff3-bc2a-edff227c329a, alterId: 0, cipher: auto, udp: true, tls: true, skip-cert-verify: true, servername: v9.tiktokcdn.com }
+proxy-groups:
+    - { name: VIEFAST MASTER, type: select, proxies: ['♻️Cân bằng tải', '🔯Auto đổi máy chủ', '🇻🇳 VieFast Master VN (01)', '🇻🇳 VieFast Master VN (02)', '🇻🇳 VieFast Master VN (03)', '🇻🇳 VieFast Master VN (04)', '🇻🇳 VieFast Master VN (05)', '🇻🇳 VieFast Master VN (06)', '🇸🇬 VieFast Master SG (01)', '🇸🇬 VieFast Master SG (02)', '🇸🇬 VieFast Master SG (04)', '🇸🇬 VieFast Master SG (05)', '🇸🇬 VieFast Master SG (06)', '🇯🇵 VieFast Master JP (01)', '🇯🇵 VieFast Master JP (02)', '🇯🇵 VieFast Master JP (03)', '🇮🇳 VieFast Master IN (01)', '🇬🇧 VieFast Master UK (01)', '🇩🇪 VieFast Master DE (01)', '🇫🇷 VieFast Master FR (01)', '🇦🇺 VieFast Master AU (01)', '🇨🇦 VieFast Master CA (01)'] }
+    - { name: '♻️Cân bằng tải', type: load-balance, proxies: ['🇻🇳 VieFast Master VN (01)', '🇻🇳 VieFast Master VN (02)', '🇻🇳 VieFast Master VN (03)', '🇻🇳 VieFast Master VN (04)', '🇻🇳 VieFast Master VN (05)', '🇻🇳 VieFast Master VN (06)', '🇸🇬 VieFast Master SG (01)', '🇸🇬 VieFast Master SG (02)', '🇸🇬 VieFast Master SG (04)', '🇸🇬 VieFast Master SG (05)', '🇸🇬 VieFast Master SG (06)', '🇯🇵 VieFast Master JP (01)', '🇯🇵 VieFast Master JP (02)', '🇯🇵 VieFast Master JP (03)', '🇮🇳 VieFast Master IN (01)', '🇬🇧 VieFast Master UK (01)', '🇩🇪 VieFast Master DE (01)', '🇫🇷 VieFast Master FR (01)', '🇦🇺 VieFast Master AU (01)', '🇨🇦 VieFast Master CA (01)'], url: 'http://www.gstatic.com/generate_204', interval: 60 }
+    - { name: '🔯Auto đổi máy chủ', type: url-test, proxies: ['🇻🇳 VieFast Master VN (01)', '🇻🇳 VieFast Master VN (02)', '🇻🇳 VieFast Master VN (03)', '🇻🇳 VieFast Master VN (04)', '🇻🇳 VieFast Master VN (05)', '🇻🇳 VieFast Master VN (06)', '🇸🇬 VieFast Master SG (01)', '🇸🇬 VieFast Master SG (02)', '🇸🇬 VieFast Master SG (04)', '🇸🇬 VieFast Master SG (05)', '🇸🇬 VieFast Master SG (06)', '🇯🇵 VieFast Master JP (01)', '🇯🇵 VieFast Master JP (02)', '🇯🇵 VieFast Master JP (03)', '🇮🇳 VieFast Master IN (01)', '🇬🇧 VieFast Master UK (01)', '🇩🇪 VieFast Master DE (01)', '🇫🇷 VieFast Master FR (01)', '🇦🇺 VieFast Master AU (01)', '🇨🇦 VieFast Master CA (01)'], url: 'http://www.gstatic.com/generate_204', interval: 60 }
+rules:
+    - 'DOMAIN-SUFFIX,googlesyndication.com,VIEFAST MASTER'
+    - 'DOMAIN-SUFFIX,doubleclick.net,REJECT'
+    - 'DOMAIN-SUFFIX,connect.facebook.com,REJECT'
+    - 'DOMAIN-SUFFIX,connect.facebook.net,REJECT'
+    - 'DOMAIN-SUFFIX,socialplugin.facebook.net,REJECT'
+    - 'DOMAIN-SUFFIX,elogs.vnexpress.net,REJECT'
+    - 'DOMAIN-SUFFIX,eva-ad.24hstatic.com,REJECT'
+    - 'DOMAIN-SUFFIX,ezca.asia,REJECT'
+    - 'DOMAIN-SUFFIX,facebook-ads.hara.vn,REJECT'
+    - 'DOMAIN-SUFFIX,facebookinbox-omni-onapp.haravan.com,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.link,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.net,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.org,REJECT'
+    - 'DOMAIN-SUFFIX,youtubecliphot.xyz,REJECT'
+    - 'MATCH,VIEFAST MASTER'
