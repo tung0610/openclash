@@ -140,3 +140,4 @@ payload:
   - DOMAIN-SUFFIX,unrealtournament.com
   - DOMAIN-KEYWORD,epicgames
   - DOMAIN-KEYWORD,riotcdn
+  - IP-CIDR,137.221.64.0/24
