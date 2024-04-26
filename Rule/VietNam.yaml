@@ -535,7 +535,7 @@ payload:
   - IP-CIDR,103.97.132.0/22
   - IP-CIDR,103.57.220.0/22
   - IP-CIDR,202.92.4.0/22
-  - GEOIP,VN
+  - DOMAIN-SUFFIX,vn
   - DOMAIN-SUFFIX,shopee.cl
   - DOMAIN-SUFFIX,shopee.cn
   - DOMAIN-SUFFIX,shopee.co.id
