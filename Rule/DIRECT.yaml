@@ -24,12 +24,12 @@ payload:
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,family.adguard-dns.com
   - DOMAIN-SUFFIX,5gtocdocao.com
-  - DOMAIN-SUFFIX,googlevideo.com
   - IP-CIDR,192.168.20.1/32
   - IP-CIDR,192.168.40.1/32
   - IP-CIDR,192.168.40.91/32
   - IP-CIDR,192.168.20.253/32
   - DOMAIN-KEYWORD,havinam
+  - DOMAIN-KEYWORD,rr
   - DOMAIN-KEYWORD,tradingview
   - DOMAIN-KEYWORD,vieon
   - DOMAIN-KEYWORD,garena
