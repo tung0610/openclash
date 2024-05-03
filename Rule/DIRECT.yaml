@@ -30,7 +30,6 @@ payload:
   - IP-CIDR,192.168.20.253/32
   - DOMAIN-KEYWORD,havinam
   - DOMAIN-KEYWORD,tradingview
-  - DOMAIN-KEYWORD,vieon
   - DOMAIN-KEYWORD,garena
   - DOMAIN-KEYWORD,faceit
   - DOMAIN-KEYWORD,hik-proconnect
