@@ -24,6 +24,9 @@ payload:
   - DOMAIN-SUFFIX,doh.opendns.com
   - DOMAIN-SUFFIX,family.adguard-dns.com
   - DOMAIN-SUFFIX,5gtocdocao.com
+  - DOMAIN-SUFFIX,internetsehat.bebasid.com
+  - DOMAIN-SUFFIX,family-adblock.bebasid.com
+  - DOMAIN-SUFFIX,adblock.doh.mullvad.net
   - IP-CIDR,192.168.20.1/32
   - IP-CIDR,192.168.40.1/32
   - IP-CIDR,192.168.40.91/32
