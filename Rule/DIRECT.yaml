@@ -39,6 +39,7 @@ payload:
   - DOMAIN-KEYWORD,hik-connect
   - DOMAIN-SUFFIX,alialarm-sgp.oss-ap-southeast-1.aliyuncs.com
   - DOMAIN-KEYWORD,ezvizlife
+  - DOMAIN-KEYWORD,nextdns
   - DST-PORT,6002
   - DST-PORT,7100
   - DST-PORT,8292
