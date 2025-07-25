@@ -32,6 +32,7 @@ payload:
   - DOMAIN-KEYWORD,gvt1
   - DOMAIN-SUFFIX,cdnetworkss.xyz
   - DOMAIN-SUFFIX,rainshine47.online
+  - DOMAIN-SUFFIX,hitmefirstcdn.store
       #nettruyen
   - DOMAIN-KEYWORD,kcgsbok
   - IP-CIDR,192.168.40.0/24
