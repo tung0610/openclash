@@ -30,6 +30,7 @@ payload:
   - DOMAIN-KEYWORD,reviewerstalk
   - DOMAIN-KEYWORD,mistflare31
   - DOMAIN-KEYWORD,gvt1
+  - DOMAIN-KEYWORD,cdnetworkss
       #nettruyen
   - DOMAIN-KEYWORD,kcgsbok
   - IP-CIDR,192.168.40.0/24
