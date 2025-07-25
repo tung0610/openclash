@@ -34,6 +34,7 @@ payload:
   - DOMAIN-SUFFIX,rainshine47.online
   - DOMAIN-SUFFIX,hitmefirstcdn.store
   - DOMAIN-SUFFIX,nutscdn.com
+  - DOMAIN-SUFFIX,tmdb.org
       #nettruyen
   - DOMAIN-KEYWORD,kcgsbok
   - IP-CIDR,192.168.40.0/24
