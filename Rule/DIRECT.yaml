@@ -1,36 +1,4 @@
 payload:
-  - IP-CIDR,218.100.14.0/24
-  - IP-CIDR,218.100.10.0/24
-  - IP-CIDR,1.1.1.1/32
-  - IP-CIDR,8.8.8.8/32
-  - IP-CIDR,9.9.9.9/32
-  - IP-CIDR,208.67.222.222/32
-  - IP-CIDR,174.138.21.128/32
-  - IP-CIDR,188.166.206.224/32
-  - IP-CIDR,76.76.2.4/32
-  - IP-CIDR,76.76.10.4/32
-  - IP-CIDR,174.138.29.175/32
-  - IP-CIDR,162.159.36.20/32
-  - IP-CIDR,162.159.36.5/32
-  - IP-CIDR,172.64.36.1/32
-  - IP-CIDR,172.64.36.2/32
-  - DOMAIN-SUFFIX,vxm2z38hp9.cloudflare-gateway.com
-  - DOMAIN-SUFFIX,freedns.controld.com
-  - DOMAIN-SUFFIX,tiarap.org
-  - DOMAIN-SUFFIX,tiar.app
-  - DOMAIN-SUFFIX,dns.quad9.net
-  - DOMAIN-SUFFIX,dns.cloudflare.com
-  - DOMAIN-SUFFIX,dns.google
-  - DOMAIN-SUFFIX,doh.opendns.com
-  - DOMAIN-SUFFIX,family.adguard-dns.com
-  - DOMAIN-SUFFIX,5gtocdocao.com
-  - DOMAIN-SUFFIX,internetsehat.bebasid.com
-  - DOMAIN-SUFFIX,family-adblock.bebasid.com
-  - DOMAIN-SUFFIX,adblock.doh.mullvad.net
-  - IP-CIDR,192.168.20.1/32
-  - IP-CIDR,192.168.40.1/32
-  - IP-CIDR,192.168.40.91/32
-  - IP-CIDR,192.168.20.253/32
   - DOMAIN-KEYWORD,havinam
   - DOMAIN-KEYWORD,tradingview
   - DOMAIN-KEYWORD,garena
@@ -39,9 +7,38 @@ payload:
   - DOMAIN-KEYWORD,hik-connect
   - DOMAIN-SUFFIX,alialarm-sgp.oss-ap-southeast-1.aliyuncs.com
   - DOMAIN-KEYWORD,ezvizlife
-  - DOMAIN-KEYWORD,nextdns
-  - DST-PORT,6002
-  - DST-PORT,7100
-  - DST-PORT,8292
   - DOMAIN-SUFFIX,local
-  - SRC-IP-CIDR,192.168.20.70/32
+  - IP-CIDR,192.168.0.0/16
+  - GEOIP,VN
+  - DOMAIN-KEYWORD,game
+  # > CN
+  - DOMAIN-SUFFIX,gov.vn
+  - DOMAIN-SUFFIX,vn
+  - DOMAIN-KEYWORD,havinam
+  - DOMAIN-KEYWORD,tbtv
+  - DOMAIN-KEYWORD,quickconnect
+  - DOMAIN-KEYWORD,vneid
+  - DOMAIN-KEYWORD,synology
+  - DOMAIN-KEYWORD,cloudflare
+  - DOMAIN-KEYWORD,5gtocdocao
+  - DOMAIN-KEYWORD,minecraft-services.net
+      #rophim
+  - DOMAIN-KEYWORD,rophim
+  - DOMAIN-KEYWORD,goatembed
+  - DOMAIN-KEYWORD,rofilm
+  - DOMAIN-KEYWORD,owakshina
+  - DOMAIN-KEYWORD,gigatransfer
+  - DOMAIN-KEYWORD,reviewerstalk
+  - DOMAIN-KEYWORD,mistflare31
+  - DOMAIN-KEYWORD,gvt1
+      #nettruyen
+  - DOMAIN-KEYWORD,kcgsbok
+  - IP-CIDR,192.168.40.0/24
+  - SRC-IP-CIDR,192.168.40.0/24
+  - IP-CIDR,192.168.20.0/24
+  - SRC-IP-CIDR,192.168.20.254/32
+  - SRC-IP-CIDR,192.168.20.1/32
+  - SRC-IP-CIDR,192.168.20.101/32
+  - SRC-IP-CIDR,192.168.20.102/32
+  - SRC-IP-CIDR,192.168.20.103/32
+  - SRC-IP-CIDR,192.168.20.104/32
