@@ -14,7 +14,6 @@ payload:
   # > CN
   - DOMAIN-SUFFIX,gov.vn
   - DOMAIN-SUFFIX,vn
-  - DOMAIN-KEYWORD,havinam
   - DOMAIN-KEYWORD,tbtv
   - DOMAIN-KEYWORD,quickconnect
   - DOMAIN-KEYWORD,vneid
