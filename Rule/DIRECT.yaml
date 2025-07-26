@@ -35,6 +35,8 @@ payload:
   - DOMAIN-SUFFIX,hitmefirstcdn.store
   - DOMAIN-SUFFIX,nutscdn.com
   - DOMAIN-SUFFIX,tmdb.org
+  #motchill
+  - DOMAIN-SUFFIX,hihihoho2.top
       #nettruyen
   - DOMAIN-KEYWORD,kcgsbok
   - IP-CIDR,192.168.40.0/24
